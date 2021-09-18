@@ -1,0 +1,47 @@
+
+body{
+  background:url(https://imgur.com/1c4qGGS.png) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+input[type=email],[type=text],[type=password]{
+  margin: 0;
+  width: 300px;
+  height: 25px;
+  font-family: sans-serif;
+  font-size: 12px;  
+  border: solid .5px #A9A9A9;
+  padding: 0px 5px;
+}
+input:focus {
+    border: solid .5px #1fbc02;
+}
+
+fieldset {
+  font-family: sans-serif;
+width:420px;
+height:275px;
+ background:url(https://imgur.com/oQXXilx.png) no-repeat ;
+ border: 0px;
+bottom:10px;
+text-align:center;
+}
+
+
+
+input[type=submit] {
+   display: block;
+    margin: 0;
+    font-family: sans-serif;
+    width:80px;
+    height: 37px;
+        font-size: 12px;
+    font-weight: bold;
+    background: #034DD6;
+    color: #fff;
+    border:0 none;
+   }
+
